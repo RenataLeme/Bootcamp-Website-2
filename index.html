@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>replit</title>
+  <link href="/CSS/style.css" rel="stylesheet" type="text/css" />
+  <link href="/CSS/formulario.css" rel="stylesheet" type="text/css" />
+  <link href="/CSS/clock.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:wght@300&family=Pacifico&family=Roboto+Condensed:wght@300&family=Roboto:wght@100;400&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inconsolata&family=Mynerve&family=Open+Sans:wght@300&family=Pacifico&family=Roboto+Condensed:wght@300&family=Roboto:wght@100;400&family=Shantell+Sans:wght@300&display=swap"
+    rel="stylesheet">
+  
+
+</head>
+
+
+<body>
+  <div class="main-page-container">
+
+    <div class="app-bar-container">
+
+
+      <div class="app-bar-left">
+        <h2>
+          Meus Felinos por Amor
+        </h2>
+      </div>
+      <div class="app-bar-right">
+        <button id="open-drawer-button">
+          <img src="/imagens/gato_pensando_2.jpeg" class="img-drawer">
+        </button>
+      </div>
+      <div id="drawer" class="drawer">
+
+        <ul id="drawer-items"></ul>
+
+      </div>
+    </div>
+    <div class="main-page-panel">
+      <div class="panel"> <img src="imagens/Du'An_painel_aumentado.jpg" class="duan1">
+      </div>
+    </div>
+    <div class="page-division">
+      <div class="big-box-page-division">
+        <div class="small-box-page-division">
+          <a href="filhotes.html"><span class="itens-page-division">Ja fomos Filhotes</span></a>
+        </div>
+        <div class="small-box-page-division">
+          <a href="femeas.html"><span class="itens-page-division">Somos as Femeas</span></a>
+        </div>
+        <div class="small-box-page-division">
+          <a href="machos.html"><span class="itens-page-division">Os Machos da Casa</span></a>
+        </div>
+        <div class="small-box-page-division">
+          <a href="partiram.html"><span class="itens-page-division">Aqueles que Partiram</span></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="history-photo-container">
+      <div class="history-photo-container-left">
+        <img src="imagens/history_Lion_maior.jpg" class="photo-left">
+      </div>
+
+      <div class="history-photo-container-center">
+        <div class="titulo-history-photo-container-center">
+          <h4>
+            <em>Nossa História</em>
+          </h4>
+        </div>
+        <p>
+          Como toda história de amor, esta também é recheada de emoções.
+          A cada nascimeto, a cada resgate, às vezes uma adoção e, o mais difícil, as perdas.
+          Essas são aquelas que apertam o coração e nos deixam um enorme vazio. Mas, como regra imutável da vida, assim
+          como
+          acontece com os seres humanos, os nossos queridos peludos de quatro patas, chegam e um dia precisam partir.
+          Quanto aos que permanecem, embora não saibamos por quanto tempo, afinal, isso faz parte dos mistérios da vida,
+          estes nos ensinam a valorizar cada instante compartilhado e convivendo na mais absoluta harmonia e amor, o que
+          obviamente não poderia ser
+          diferente. Eles não pediram para estar conosco, nós os escolhemos para estarem ao nosso lado. Portanto,
+          merecem todo o nosso respeito.
+          Esses seres encantados e encantadores, são únicos. Mantém as suas característias e personalidades enraizadas
+          em sua ancestralidade. Preenchem os espaços vazios dos lares e aquecem os nossos corações. Muitas vezes
+          aliviam as nossas dores nos momentos mais difíceis. Maravilhoso é ter o privilégio de podermos viver em sua
+          companhia.
+        </p>
+      </div>
+
+      <div class="history-photo-container-right">
+        <img src="imagens/kyra2.jpg" class="photo-right">
+      </div>
+    </div>
+
+
+    <div class="itens-contato">
+      <h5 class="personal-info">
+        Renata Vercesi Leme
+        <p>
+          Front End Developer
+        </p>
+      </h5>
+      <a href="https://instagram.com/renata.vercesi">
+        <img src="/imagens/insta.png" class="logo-insta">
+      </a> 
+    </div>
+     <div class="container-formulario">
+      <div class="titulo">
+        <h3>
+          Deixe os seus dados e entraremos em contato
+        </h3>
+      </div>
+
+    <form action="https://getform.io/f/8a104b66-5475-47ac-93c4-6eab6f1b04fe" method="POST">
+
+      <div class="container-campos">
+        <span>
+          <input type="text" required placeholder="Nome Completo" id="meu-nome" name="nome" class="entrada-texto"
+            minlength="6" maxlength="32">
+        </span>
+
+        <span>
+          <input type="email" required placeholder="Email" id="email" name="email">
+        </span>
+      </div>
+
+      <div class="container-campos">
+        <span>
+          <input type="tel" placeholder="Telefone (optional) " id="telefone" name="telefone" minlength="9"
+            maxlength="16">
+        </span>
+
+        <span>
+          <input type="url" placeholder="Web Site (optional) " id="web-site" name="web">
+        </span>
+      </div>
+
+      <div class="container-campos">
+        <textarea placeholder="Comentários" required id="comentarios" name="texto" class="entrada-texto"                 minlength="16" maxlength="256"></textarea>
+      </div>
+      <div class="font-family">
+        <input type="checkbox" id="atualizacao" name="atualização">
+        <label>Quero receber as novidades </label>
+      </div>
+      <div>
+        <input type="submit" value="Enviar" id="submit">
+      </div>
+    
+    </form>
+        <span id="clock" class="clock">00:00:00</span>
+        <div class="visitantes">
+         <button id="btn-perfil">Peril dos Visitantes </button>
+        </div>
+       
+         
+      
+  </div>
+</div> 
+  
+  <script src="/JS/script.js"></script>
+  <script src="/JS/menu.js"></script>
+  <script src="/JS/clock.js"></script>
+  <script src="/JS/visitantes.js"></script>
+
+</body>
+
+</html>

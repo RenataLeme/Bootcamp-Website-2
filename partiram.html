@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>replit</title>
+  <link href="/CSS/styles2.css" rel="stylesheet" type="text/css" />
+  <link href="/CSS/formulario.css" rel="stylesheet" type="text/css" />
+  <link href="/CSS/clock.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:wght@300&family=Pacifico&family=Roboto+Condensed:wght@300&family=Roboto:wght@100;400&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inconsolata&family=Mynerve&family=Open+Sans:wght@300&family=Pacifico&family=Roboto+Condensed:wght@300&family=Roboto:wght@100;400&family=Shantell+Sans:wght@300&display=swap"
+    rel="stylesheet">
+
+</head>
+  <body>
+    <div class="main-page-container">
+
+      <div class="app-bar-container">
+        <div class="app-bar-left">
+          <h2>
+            Meus Felinos por Amor
+          </h2>
+        </div>
+        <div class="app-bar-right">
+          <button id="open-drawer-button">
+            <img src="/imagens/gato_pensando_2.jpeg" class="img-drawer">
+          </button>
+        </div>
+        <div id="drawer" class="drawer">
+          <ul id="drawer-items"></ul>
+        </div>
+      </div>
+      <div class="page-division">
+        <div class="big-box-page-division" >
+          <div class="small-box-page-division">
+            <div class="typewritter" ></div>
+          </div>  
+        </div>
+        <div class="orientacao">
+          <span class="names"> 
+           <h4>Pimpi</h4>
+          </span>
+          <span class="names"> 
+            <h4>Onça</h4>
+          </span>
+          <span class="names"> 
+            <h4>Timão</h4>
+          </span>
+          <span class="names"> 
+            <h4>Branca</h4>
+          </span>
+          <span class="names"> 
+            <h4>Felix</h4>
+          </span>
+          <span class="names"> 
+            <h4>Pretinha</h4>
+          </span>
+        </div>  
+      </div>
+    <div class="container-panel"> 
+     
+      <span class="panel">
+        <img class="panel-images1" src="imagens/partiram/part1.jpg" alt="">
+      </span>
+      <span class="panel">
+        <img class="panel-images2" src="imagens/partiram/part10.jpg" alt="">
+      </span>
+      <span class="panel">
+        <img class="panel-images3" src="imagens/partiram/part19.jpg" alt="">
+      </span>
+    </div>
+      <div class="itens-contato">
+        <h5 class="personal-info">
+          Renata Vercesi Leme
+          <p>
+            Front End Developer
+          </p>
+        </h5>
+        <a href="https://instagram.com/renata.vercesi">
+          <img src="/imagens/insta.png" class="logo-insta"></a>
+      </div>
+
+      <div class="container-formulario">
+        <div class="titulo">
+          <h3>
+            Deixe os seus dados e entraremos em contato
+          </h3>
+        </div>
+        
+        <form action="https://getform.io/f/8a104b66-5475-47ac-93c4-6eab6f1b04fe" method="POST">
+          <div class="container-campos">
+            <span>
+              <input type="text" required placeholder="Nome Completo" id="meu-nome" name="nome" class="entrada-texto"
+                minlength="6" maxlength="32">
+            </span>
+
+            <span>
+              <input type="email" required placeholder="Email" id="email" name="email">
+            </span>
+          </div>
+
+          <div class="container-campos">
+            <span>
+              <input type="tel" placeholder="Telefone (optional) " id="telefone" name="telefone" minlength="9"
+                maxlength="16">
+            </span>
+
+            <span>
+              <input type="url" placeholder="Web Site (optional) " id="web-site" name="web">
+            </span>
+          </div>
+
+          <div>
+            <textarea placeholder="Comentários" required id="comentarios" name="texto" class="entrada-texto"
+              minlength="16" maxlength="256"></textarea>
+          </div>
+          <div class="font-family">
+            <input type="checkbox" id="atualizacao" name="atualização">
+            <label>Quero receber as novidades </label>
+          </div>
+          <div>
+            <input type="submit" value="Enviar" id="submit">
+          </div>
+
+        </form>
+        <span id="clock" class="clock">00:00:00</span>
+      </div>
+
+      <script src="/JS/script.js"></script>
+      <script src="/JS/menu.js"></script>
+      <script src="/JS/clock.js"></script>
+      <script src="/JS/partiram.js"></script>
+      <script src="/JS/PainelPartiram.js"></script>
+
+    </div> 
+  </body>
+</html>  

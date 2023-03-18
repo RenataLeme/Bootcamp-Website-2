@@ -1,0 +1,449 @@
+body{
+  margin:0;
+  background-image: linear-gradient(-20deg, #616161 0%, #9bc5c3 100%);
+}
+
+.main-page-container{
+ display: flex;
+ flex-direction: column;
+}
+
+.app-bar-container{
+  display: flex;
+  position: sticky;
+  background-image:linear-gradient( 109.6deg, rgba(5,84,94,1) 16%, #bbb 91.1% );
+  width: 100%;
+  height:150px;
+  font-family: 'Shantell Sans', cursive;
+  align-items: center;
+  font-weight: bold;
+  top: 0;
+  left: 0;
+}
+
+.app-bar-left{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  justify-content: center;
+  padding-left: 40px;
+  font-size: 30px;
+}
+
+.app-bar-right{
+  display: flex;
+  flex-direction: row;
+  margin-right: 40px;
+  justify-content: end;
+  width: 100px;
+}
+ 
+#open-drawer-button{
+  border:none;
+  width: 100%;
+  background-color: transparent;
+}
+
+.img-drawer{
+  width: 100px;
+  height: 100px;
+  border-radius: 60px;
+  border: none;
+  background-color: transparent;
+  -webkit-box-shadow: 0px 0px 52px 18px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 52px 18px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 52px 18px rgba(0,0,0,0.75);
+  transition: width 2s;
+} 
+
+#open-drawer-button:hover{
+  cursor: pointer;
+  opacity: 0.6;
+}  
+
+.drawer{
+  display: none;
+  position: fixed;
+  background-image: linear-gradient(-20deg, #616161 0%, #9bc5c3 100%);
+  top:155px;
+  right:0;
+  height: 100%;
+  width: 280px;
+  box-shadow: -18px 5px 11px 0px rgba(0,0,0,0.55);
+  border-radius: 8px;
+}
+
+.drawer-open{
+  display: block;
+}
+
+.container-drawer-items{
+}
+
+#drawer-items{
+  font-size: 20px;
+  font-family: 'Shantell Sans', cursive;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  line-height: 2.5;
+}
+
+#drawer-items:hover{
+  color:darkgrey
+}  
+
+.main-page-panel{
+  width: 100%;
+}
+
+.panel{
+  display: flex;
+  width: 100%;
+  height: 450px;
+  justify-content: center;
+}
+
+.duan1{
+  display: flex;
+  width: 100%;
+}
+
+.page-division{
+  display: flex;
+  width: 100%;
+  height: 250px;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  font-family:'Shantell Sans', cursive;
+  background-color: #DCD9D4;
+  
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%),         radial-gradient(at 50% 0%, rgba(255,255,255,0.10) 0%, rgba(0,0,0,0.50) 50%);
+}
+
+.big-box-page-division{
+  display: flex;
+  width: 100%;
+  background-color: transparent;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
+  color: initial;
+}
+
+.small-box-page-division{
+   display: flex;
+  width: 20%;
+  height: 150px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  background-image: linear-gradient(-20deg, #616161 0%, #9bc5c3 100%);
+  -webkit-box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.75);
+   box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.75);
+  transition: width 1s;
+}
+
+.small-box-page-division:hover{
+  width: 22%;
+  height: 165px;
+  background:darkgray ;
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+}
+
+.itens-page-division{
+  text-decoration: none;
+  color: initial;
+}
+  
+.history-photo-container{
+  display:flex;
+  justify-content: space-between;
+  height: 560px;
+  -webkit-box-shadow: 0px 10px 20px 4px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 10px 20px 4px rgba(0,0,0,0.75);
+box-shadow: 0px 10px 20px 4px rgba(0,0,0,0.75);
+}
+
+.history-photo-container-left{
+  display: flex;
+  width: 50%;
+}
+
+.photo-left{
+  display: flex;
+  width: 380px;
+  border-radius: 12px;
+  margin-right: 20px;
+}
+
+.history-photo-container-right{
+  display: flex;
+  width: 50%;
+  justify-content: end;
+  margin-right: 0;
+}
+
+.photo-right{
+  display: flex;
+  width: 380px;
+  border-radius: 12px;
+  margin-right: 20px;
+}
+
+.titulo-history-photo-container-center{
+  font-family: 'Shantell Sans', cursive;
+  font-size: 20px;
+  font-weight: bold;
+  margin: auto;
+  margin-top: 0px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.history-photo-container-center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-bottom: 0;
+  width: 90%;
+  height: 510px;
+  font-family: 'Shantell Sans', cursive;
+  font-size: 14px;
+  padding-left: 30px;
+  padding-right: 20px;
+  margin-top: 23px;
+  -webkit-box-shadow: 0px 0px 52px 18px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 52px 18px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 52px 18px rgba(0,0,0,0.75); 
+  border-radius: 0px 0px 53px 0px;
+  -moz-border-radius: 0px 0px 53px 0px;
+  -webkit-border-radius: 0px 0px 53px 0px;
+  transition: 1s;
+}
+
+.history-photo-container-center:hover{
+  width: 620px;
+  height: 510px;
+  
+}
+
+.itens-contato{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 60px;
+  align-items: end;
+  padding-right: 50px;
+  height: 200px;
+  font-family: 'Shantell Sans', cursive;
+  font-size: 18px;
+  background-image: linear-gradient(-20deg, #616161 0%, #9bc5c3 100%);
+}
+
+.logo-insta{
+  width: 40px;
+  height: 40px;
+}
+
+.personal-info{
+  margin-top: 70px;
+}
+
+.visitantes{
+ }
+
+#btn-perfil{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 110px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  width: 210px;
+  height: 60px;
+  color: #f4ecec;
+  font-size: 16px;
+  border: none;
+   border-radius: 8px 8px 8px 8px;
+  -moz-border-radius: 8px 8px 8px 8px;
+  -webkit-border-radius: 8px 8px 8px 8px;
+  background-color: darkgrey;
+  background-image: radial-gradient(at top center, rgba(255,255,255,0.03) 0%, rgba(0,0,0,0.03) 100%), linear-gradient(to top, rgba(255,255,255,0.1) 0%, rgba(143,152,157,0.60) 100%);
+ 	background-blend-mode: normal, multiply;
+}
+
+#btn-perfil:hover{
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+
+
+@media (max-width: 844px) {
+
+
+.app-bar-container{
+    height:90px;
+}
+
+.app-bar-left{
+  padding-left: 10px;
+  font-size: 18px;
+}
+
+.app-bar-right{
+  margin-right: 0px;
+}
+
+.drawer{
+  height: 800px;
+}  
+
+  
+#open-drawer-button{
+  margin-right: 40px;
+}
+
+  #open-drawer-button:hover{
+ cursor: none;
+}  
+  
+.img-drawer{
+  width: 50px;
+  height: 50px;
+  transition: none;
+} 
+
+#open-drawer-button:hover{
+  cursor: none;
+  opacity: 1;
+}  
+
+
+.drawer-open{
+  display: none;
+}
+
+.panel{
+  height: 150px;
+  justify-content: start;
+}
+
+.duan1{
+   margin-right: 0px;
+  
+}
+.page-division{
+  display: flex;
+  width:400px;
+  height: 100px;
+  font-size: 12px;
+}
+
+.big-box-page-division{
+  display: flex;
+  width: 600px;
+  height: 100px;
+  margin-right: 40px;
+}
+
+a{
+  text-decoration: none;
+  color: initial;
+}
+
+.small-box-page-division{
+   display: flex;
+  width: 70px;
+  height: 40px;
+  margin-right: 0px;
+  margin-left: 20px;
+  padding-left: 5px;
+}
+
+  .small-box-page-division:hover{
+  width: 0;
+  height: 0px;
+}
+
+.itens-page-division{
+  text-decoration: none;
+  color: initial;
+}
+ 
+.history-photo-container{
+  height: 670px;
+
+}
+
+  .history-photo-container-center{
+    display: flex;
+    width: 840px;
+    justify-content: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 630px;
+    font-family: 'Shantell Sans', cursive;
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-top: 20px;
+}
+.photo-right{
+  display: none;
+}
+
+  .history-photo-container-left{
+  display: none;
+}
+
+.photo-left{
+  display: none;
+}
+
+.itens-contato{
+  justify-content: center;
+  margin-top: 5px;
+  align-items: end;
+  padding-right: 50px;
+  height: 100px;
+  font-size: 16px;
+}
+
+.logo-insta{
+  width: 30px;
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+.personal-info{
+  margin-top: 15px;
+}
+
+ .visitantes{
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 20px;
+  
+ }
+
+#btn-perfil{
+  justify-content: center;
+  margin-left: 60px;
+  
+}
+  
+} 
